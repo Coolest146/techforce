@@ -494,4 +494,85 @@
       border-radius: 10px;
     }
 }
+
+.team{
+    p{
+        color: #4834d4;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: iniherit;
+        text-align: start;
+        strong{
+            color: #d8a10a;
+        }
+    }
+}
+
+.talk{
+    color:white;
+    font-weight: 100;
+    font-style: inherit;
+     .story{
+        text-align: start;
+        padding: 10px 4px;
+        height: fit-content;
+        line-height: 20px;
+        margin-bottom: 10px;
+        .titles{
+            color:#0ad80a;
+            text-align: start;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .inside{
+            .desc{
+                border-left: solid 5px #0ad80a;
+                padding: 2px;
+            }
+        }
+    }
+   
+
+     #journey{
+
+        .titles{
+            color:#0a6ad8;          
+        }
+        
+            .inside{
+            .desc{
+                border-left: solid 5px #0a6ad8;
+            }
+        }
+    }
+  
+
+     #vision{
+        .titles{
+            color: #d8a10a;
+        }
+       
+         .inside{
+            .desc{
+                border-left: solid 5px #d8a10a;
+            }
+        }
+    }
+  
+
+     #mission{
+         .titles{
+            color: #d80aab;
+            }
+      
+         .inside{
+            
+            .desc{
+                border-left: solid 5px #d80aab;
+            }
+        }
+    }
+}
+
 /* homePage style ends here */
