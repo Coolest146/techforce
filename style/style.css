@@ -495,6 +495,17 @@
     }
 }
 
+/* homepage style ends here */
+
+/* aboutstyleStarthere */
+
+#about{
+    min-height: 100vh;
+    padding: 31px 1% 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 .team{
     p{
         color: #4834d4;
@@ -575,4 +586,159 @@
     }
 }
 
-/* homePage style ends here */
+/* aboutPage style ends here */
+
+
+/* contactPageStyle Begin here */
+#contact{
+    padding: 70px 5% 80px;
+    .cont{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    flex-direction:row;
+    gap: 50px;
+
+    .connect{
+        flex: 1;
+        height: auto;
+        color: white;
+        font-weight: bold;
+        background-color: #280a22;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        
+        p{
+            color: white;
+            font-size: xx-large;
+        }
+        .Name{
+            
+            p{
+                color: white;
+                font-weight: bold;
+                font-size: small;
+                padding: 6px;
+            }
+            .in{
+            background: #484548;
+            border-radius: 10px;
+            border-style: none;
+            padding: 5px;
+            width: 100%;
+            height: 50px;
+              input{
+                border-style: none;
+                width: 100%;
+                padding: 10px;
+                background: #48454a;
+                color: white;
+                font-weight: bold;
+
+            }
+           
+            input:focus{
+                outline: none;
+                box-shadow: none;
+            }
+            }
+
+             .txt{
+                background: #484548;
+                border-radius: 10px;
+                border-style: none;
+                padding: 5px;
+                width: 100%;
+                height: 100px;
+                textarea{
+                border-style: none;
+                width: 100%;
+                background: #48454a;
+                color: white;
+                height:100%;
+                padding: 5px;
+                font-weight: bold;
+               }
+
+               textarea:focus{
+                outline: none;
+                box-shadow: none;
+               }
+            }
+
+            .send{
+                width: 100%;
+                display: flex;
+                height: fit-content;
+                padding-top: 19px; 
+
+                button{
+                    border-style: none;
+                    border-radius: 4px;
+                    width: 50%;
+                    background-color: #414441;
+                    padding: 10px;
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        
+    }
+
+    .social{
+        flex: 2;
+        display: flex;
+        height: 522px;
+        width: 200px;
+        background: #878788;
+        border-radius: 10px;
+        .madam{
+            flex: 1;
+            height: inherit;
+            border-radius: inherit;
+            img{
+                height:inherit;
+                border-radius: inherit;
+            }
+        }
+        .media_link{
+            flex: 2;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            p{
+                color: white;
+                font-weight: bold;
+                font-size: large;
+            }
+            .media{
+                li{
+                    list-style: none;
+                    display: inline-flex;
+                    margin: 5px;
+                    .fa-facebook{
+                        color: rgb(59,91,152);
+                        font-size: xx-large;
+                    }
+                    .fa-youtube{
+                        color: #d21919;
+                        font-size: xx-large;
+                    }
+                    .fa-instagram{
+                        color: #d80aab;
+                        font-size: xx-large;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+
+
